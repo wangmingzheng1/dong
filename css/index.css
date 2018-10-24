@@ -1,0 +1,61 @@
+/* 分组选择器： 公用同一套样式 符号是一个逗号隔开
+body{width: 100%;height: 100%;}
+html{width: 100%;height: 100%;}
+.swiper-container{width: 100%;height: 100%;}
+*/
+html{font-size: 100px;}
+body,html,.swiper-container{width: 100%;height: 100%;}
+/* arrow */
+.arrow{z-index:99;position:absolute;bottom:.2rem;left:50%;margin-left:-.425rem;width: .85rem;height: .83rem;background: url("../images/arrow.png") no-repeat;background-size: cover}
+
+/*music*/
+.music{z-index:9;position:absolute;top:.2rem;left:.2rem;width:.6rem;height:.6rem;background: url("../audio/music.svg") no-repeat;background-size: cover}
+
+/* 第一屏 */
+.page1{background:url("../images/page1/bg1.jpg") no-repeat;background-size: cover}
+.page1 .text{position:absolute;top:.65rem;right:.65rem;width: 2.05rem;height:5.39rem;background: url("../images/page1/textBg.png") no-repeat;background-size: cover;padding-top:.6rem;}
+.page1 .text div{width:1.38rem;margin:0 auto}
+.page1 .text .txt01{height: 1.3rem;background: url("../images/page1/text01.png") no-repeat;background-size: cover}
+.page1 .text .txt02{height: 1.1rem;background: url("../images/page1/text02.png") no-repeat;background-size: cover}
+.page1 .text .txt03{height: 1.08rem;background: url("../images/page1/text03.png") no-repeat;background-size: cover}
+.page1 .text .txt04{height: 1.2rem;background: url("../images/page1/text04.png") no-repeat;background-size: cover}
+.page1 .tuzhang{position:absolute;top:8.5rem;right:1.2rem;width:1.32rem;height: 1.35rem;background: url("../images/page1/tuzhang.png") no-repeat;background-size: cover}
+
+
+/* 第二屏 行元素display:inline 设置宽高不起作用，需要转换为块元素 display:block / float:left
+display:block  独占一行
+float:left  在一行显示
+*/
+.page2{background: url("../images/page2/bg1.png") no-repeat;background-size: cover}
+.page2 .bg{width: 100%;height:100%;background: url("../images/page2/bg2.png") no-repeat;background-size: 100% 100%}
+.page2 .text1{position: absolute;top:1.2rem;right:.8rem;}
+.page2 span{float:left}
+.page2 .text1 span{width: .56rem;height: 2.83rem;margin-left:.06rem}
+.page2 .text1 span:nth-child(1){background: url("../images/page2/text01.png") no-repeat;background-size: cover}
+.page2 .text1 span:nth-child(2){background: url("../images/page2/text02.png") no-repeat;background-size: cover}
+.page2 .text2{position: absolute;top:1.2rem;right:2.5rem;}
+
+.page2 .text2 span{width: .36rem;height: 5.78rem;margin-left:.35rem}
+.page2 .text2 span:nth-child(1){background: url("../images/page2/text03.png") no-repeat;background-size: cover}
+.page2 .text2 span:nth-child(2){background: url("../images/page2/text04.png") no-repeat;background-size: cover}
+.page2 .text2 span:nth-child(3){background: url("../images/page2/text05.png") no-repeat;background-size: cover}
+.page2 .text2 span:nth-child(4){background: url("../images/page2/text06.png") no-repeat;background-size: cover}
+
+.page2 .knife{z-index:9;position:absolute;bottom:1rem;left:.8rem;width:2.4rem;height:1.25rem;background: url("../images/page2/knife.png") no-repeat;background-size: cover}
+.page2 .hand{position:absolute;bottom:.5rem;left:.5rem;width:2.08rem;height:2.44rem;background: url("../images/page2/hand.png") no-repeat;background-size: cover}
+
+
+/* 第三屏 */
+.page3{background: url("../images/page3/bg1.png") no-repeat;background-size: cover}
+.page3 .bg{width:100%;height:100%;background: url("../images/page3/bg2.png") no-repeat;background-size: 100% 100%}
+.page3 .yuan{position:absolute;top:1.5rem;left:50%;margin-left:-2.78rem;width:5.56rem;height:5.74rem;background: url("../images/page3/circle.png") no-repeat;background-size: 100% 100%}
+.page3 .text{z-index:9;position:absolute;top:2.5rem;left:50%;margin-left:-1.725rem;width:3.45rem;height:3.45rem;background: url("../images/page3/text.png") no-repeat;background-size: 100% 100%}
+.page3 .people{position:absolute;top:1.5rem;left:50%;margin-left:-1.725rem;width:3.45rem;height:.3rem;}
+.page3 .people div{position:absolute;width:1.8rem;height:3rem;}
+.renwu01{top:0;right:0;background: url("../images/page3/renwu01.png") no-repeat;background-size: cover}
+.renwu02{top:-.6rem;left:50%;margin-left:-.9rem;background: url("../images/page3/renwu02.png") no-repeat;background-size: cover}
+.renwu03{top:0;left:0;background: url("../images/page3/renwu03.png") no-repeat;background-size: cover}
+.renwu04{top:0;left:50%;margin-left:-.9rem;background: url("../images/page3/renwu04.png") no-repeat;background-size: cover}
+.page3 .btns{position:absolute;bottom:.6rem;left:50%;margin-left:-2.51rem;width:5.02rem;height:1.8rem;background:url("../images/page3/btns.png") no-repeat;background-size: cover}
+
+
